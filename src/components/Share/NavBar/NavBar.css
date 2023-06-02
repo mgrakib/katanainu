@@ -1,0 +1,11 @@
+.sub-nav-item{
+    padding: 10px 12px;
+    border: 1px solid transparent;
+}
+.sub-nav-item:hover{
+    color: #FACC15;
+    border-top: 1px dashed #FACC15;
+    border-bottom: 1px dashed #FACC15;
+    transition-duration: .5s;
+    
+}
