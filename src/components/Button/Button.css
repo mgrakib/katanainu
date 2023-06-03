@@ -1,0 +1,4 @@
+.action-btn{
+    @apply after:absolute after:left-0 after:top-0 after:content-['']  after:h-full after:w-0 hover:after:w-full after:duration-500 after:bg-[#F5A238] hover:text-white after:z-10
+}
+

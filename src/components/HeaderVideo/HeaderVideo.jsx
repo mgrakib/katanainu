@@ -3,7 +3,7 @@
 import video from "../../assets/video/video.mp4";
 const HeaderVideo = () => {
 	return (
-		<div className=' text-center h-[80vh]  '>
+		<div className=' text-center h-[80vh] -z-10 '>
 			<video
 				width=''
 				loop

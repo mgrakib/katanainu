@@ -4,6 +4,7 @@ import Container from '../../Container/Container';
 import { FiChevronRight } from "react-icons/fi";
 import { FaBars } from "react-icons/fa";
 import './NavBar.css'
+import Button from '../../Button/Button';
 
 const NavBar = () => {
 	const navItesm = (
@@ -151,11 +152,7 @@ const NavBar = () => {
 				<div className='navbar-center hidden lg:flex'>
 					<ul className='flex items-center '>{navItesm}</ul>
 
-					<div className='py-3 px-4 rounded-3xl border border-yellow-500 bg-[#000] text-white cursor-pointer overflow-hidden relative action-btn'>
-						<p className='z-50 relative flex items-center gap-1'>
-							MARCKETPLACE <FiChevronRight />
-						</p>
-					</div>
+					<Button title={'MARCKETPLACE'} />
 				</div>
 
 				{/* drawer  */}

@@ -1,11 +1,19 @@
+.nav-item{
+    @apply relative
+}
+
+.nav-item{
+    @apply after:absolute after:left-0 after:-bottom-1 after:content-[''] after:text-red-500 after:h-[3px] after:w-0 hover:after:w-1/2 after:duration-300 after:bg-yellow-400 hover:text-yellow-400
+}
+
 .sub-nav-item{
     padding: 10px 12px;
     border: 1px solid transparent;
 }
 .sub-nav-item:hover{
-    color: #FACC15;
-    border-top: 1px dashed #FACC15;
-    border-bottom: 1px dashed #FACC15;
+    color: #FFB42F;
+    border-top: 1px dashed #FFB42F;
+    border-bottom: 1px dashed #FFB42F;
     transition-duration: .5s;
     
 }
