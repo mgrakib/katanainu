@@ -1,6 +1,6 @@
 .main-layout-div {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: content;
     min-height: 5000px;
 }

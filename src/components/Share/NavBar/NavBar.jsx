@@ -138,7 +138,7 @@ const NavBar = () => {
 	);
     return (
 		<Container>
-			<div className='navbar bg-transparent z-40 justify-between '>
+			<div className='navbar  bg-transparent z-[100] justify-between '>
 				<div className='mr-auto'>
 					<Link>
 						<img
@@ -152,7 +152,7 @@ const NavBar = () => {
 				<div className='navbar-center hidden lg:flex'>
 					<ul className='flex items-center '>{navItesm}</ul>
 
-					<Button title={'MARCKETPLACE'} />
+					<Button title={"MARCKETPLACE"} />
 				</div>
 
 				{/* drawer  */}
